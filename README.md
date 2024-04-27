@@ -2,6 +2,7 @@
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
+[Live Preview](https://pouyasdz.github.io/qr-code-components/)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
