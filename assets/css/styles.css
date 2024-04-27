@@ -1,0 +1,56 @@
+@import "variables.css";
+@import "globals.css";
+@import "media-query.css";
+
+body {
+    background-color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 320px;
+    height: 473px;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 4px 14px 0 rgb(0, 0, 0, 7%);
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+main .qrcode {
+    width: 100%;
+    height: 288px;
+    background-color: var(--blue);
+    border-radius: 10px;
+    margin-bottom: 24px;
+    background-image:url(../images/image-qr-code.png);
+    background-position: center;
+    background-size: cover;
+}
+
+main .content{
+    width: 100%;
+    height: 129px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px;
+}
+
+main .content :first-child {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--dark-navy);
+}
+
+main .content :last-child {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    color: var(--grey);
+}
